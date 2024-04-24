@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户资料</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .profile-summary {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile-summary img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>用户资料</h1>
+</header>
+
+<div class="container">
+    <div class="profile-summary">
+        <img src="avatar.jpg" alt="User Avatar">
+        <div>
+            <h2>用户名</h2>
+            <p>个人简介或状态</p>
+        </div>
+    </div>
+
+    <div class="profile-details">
+        <h2>详细资料</h2>
+        <ul>
+            <li><strong>姓名:</strong> 张三</li>
+            <li><strong>年龄:</strong> 25岁</li>
+            <li><strong>地址:</strong> 北京市海淀区</li>
+            <li><strong>邮箱:</strong> example@example.com</li>
+            <li><strong>电话:</strong> 123-456-7890</li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    &copy; 2024 我的网站
+</footer>
+</body>
+</html>
