@@ -8,6 +8,8 @@ const request = axios.create({
   timeout: 5000,
 });
 
+//ok
+
 request.interceptors.request.use(async (config) => {
   const token = (await import("../store")).useUserStore().state.token;
   if (token && token !== "") {
